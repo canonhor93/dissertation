@@ -2,7 +2,7 @@ import os, shutil
 from convert_jpeg import convert_jpeg
 from image_preprocess import image_preprocess
 from write_csv import append_list_as_row
-from corpus_convertion import corpus_convertion
+from receipt_classification import receipt_classification
 from pathlib import Path
 
 
@@ -36,7 +36,7 @@ def main():
 
     # Image preprocessing, Extract text from
     image_preprocess(proceeded)
-    corpus_convertion()
+    receipt_classification()
 
 if __name__ == "__main__":
     main()
