@@ -1,7 +1,6 @@
-# dissertation
-MASTER OF COMPUTER SCIENCE (APPLIED COMPUTING)
-
-This is a Master Dissertation done by Hor Zhang Neng from University Malaya.
+# Understanding Scanned Receipts with Optical Character Recognition and Machine Learning Techniques for Automated Reimbursement Management
+MASTER OF COMPUTER SCIENCE (APPLIED COMPUTING) - UNIVERSITY MALAYA <br/>
+HOR ZHANG NENG
 
 # Introduction of Program
 
