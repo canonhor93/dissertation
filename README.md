@@ -5,24 +5,38 @@ HOR ZHANG NENG
 # Introduction of Program
 
 1. main_program
-    - Main program to execute Pre-Receipt Parsing, Receipt Parsing and Post-Receipt Parsing.
+    - Main program to execute image pre-processing, text extraction, key information extraction and receipt classification.
 2. convert_jpeg
-    - Standarized test receipt to Jpeg format
+    - Standardized test receipt to Jpeg format
 3. image_preprocess
     - Image preprocessing to increase performance of OCR
 4. image_ocr
     - Recognize text from receipt
-5. key_info_extract
+5. write_csv
+    - Write information into csv file
+6. key_info_extract
     - Extract key information from receipt
-6. data_processing
+7. data_processing
     - Preprocess data before write to file
-7. receipt_classification
+8. receipt_classification
     - Categorized receipt into category
 
 # Introduction of Dataset
 
 1. raw
     - Folder which included 100 raw receipts 
+    - The origin of receipt is determined by file name which started with:
+        - I - ICDAR Database
+        - P - PDF Receipt
+        - R - Physical Receipt by Daily Collection
+        - S - Screenshot Receipt
+    - The category of receipt is determined by file name which ended with:
+        - A - Accommodation
+        - F - Fares (transport)
+        - G - Groceries
+        - M - Meals
+        - P - ICDAR Database
+        - T - Telecommunication
 2. proceeded
     - Folder which included result of program executed
 3. Expected Result
